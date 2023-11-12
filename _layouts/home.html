@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div id="landing"></div>
+<script src="assets/js/particles.min.js"></script>
+
+<div class="landing-title">
+    <div class="landing-card">
+    {{content}}
+</div>
+</div>
+
+
+<script>
+    particlesJS.load('landing', 'assets/js/particles.json', function() {
+        console.log('callback - particles.js config loaded');
+      });
+</script>
