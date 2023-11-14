@@ -7,9 +7,11 @@
     <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>{{ page.title }}</h1>
     <section>
       {{ content }}
+      {% for post in site.posts %}
+      <h1><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
+      {% endfor %}
     </section>
     <footer>
       2023 &copy; Taylor Ellington

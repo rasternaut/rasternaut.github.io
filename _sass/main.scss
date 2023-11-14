@@ -1,9 +1,11 @@
 /* variables */
-$bg-color: rgb(10, 10, 10);
-$emphasis-text-color: rgb(11, 84, 186);
-
-$card-bg-color: linear-gradient(
-  145deg,
+//$bg-color: rgb(10, 10, 10);
+//$emphasis-text-color: rgb(11, 84, 186);
+$bg-color: rgba(12, 12, 12, 1);
+$emphasis-text-color: rgb(31, 161, 253);
+$primary-color: #ff073a;
+$card-bg-color: radial-gradient(
+  circle,
   rgb(49, 47, 47) 20%,
   rgba(43, 45, 47, 1) 80%
 );
@@ -54,4 +56,9 @@ body {
 
   em {
     color:$emphasis-text-color
+  }
+
+  p, h1, h2, h3 {
+    text-color: white;
+    color: white;
   }
