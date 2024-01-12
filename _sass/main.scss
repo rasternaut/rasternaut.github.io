@@ -4,61 +4,155 @@
 $bg-color: rgba(12, 12, 12, 1);
 $emphasis-text-color: rgb(31, 161, 253);
 $primary-color: #ff073a;
-$card-bg-color: radial-gradient(
-  circle,
-  rgb(49, 47, 47) 20%,
-  rgba(43, 45, 47, 1) 80%
-);
+$card-bg-color: rgba(255,255,255, 0.05);
+
+$gizmo-red: rgb(255,0,0);
+$gizmo-green: rgb(0,255,0);
+$gizmo-blue: rgb(0,0,255);
 
 html {
     background: $bg-color;
     font-family: 'Iosevka Web';
     height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
 body {
     height: 100%;
+    padding: 0;
+    margin: 0;
   }
 
+  .content{
+    height:100%;
+    width:100%;
+  }
 
-
-  #landing {
+  #particle-field {
     background: $bg-color;
     color: $emphasis-text-color;
-    display: flex;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     text-align: center;
-    position: fixed;
+
   }
 
-  .landing-title {
-    left: 0;
-    margin: 0.5rem;
-    padding: 0.5rem;
+.landing-area {
+
     position: absolute;
-    right: 0;
-    top: 40%;
+    top: 20%;
+    width: 100%;
+    margin: auto;
     text-align: center;
-    font-size: large;
+}
+
+  .title-card{
+
+    margin: 0 0 auto auto;
+    font-size: 5rem;
+    top: 22%;
+    background-color: $card-bg-color;
   }
 
-  .landing-card {
-    background: $card-bg-color;
-    border-radius: 2rem;
-    margin: 3rem 0;
-    padding: 1rem 2rem;
-    max-width: 60em;
-    margin:auto
+  h1.site-title{
+    margin: 0 0 auto auto;
+    color:$emphasis-text-color;
+    font-style: oblique;
+    text-shadow: #000000 1px 0 10px;
   }
 
-  em {
-    color:$emphasis-text-color
+  p.site-sub-heading{
+    margin: auto;
+    font-size:2rem;
+    text-align: center;
+
   }
+
+  p, em {
+    color: $emphasis-text-color;
+  }
+
+
+
+// .content-area {
+//     left: 0;
+//     margin: 0.5rem;
+//     padding: 0.5rem;
+//     right: 0;
+//     top: 0;
+//     bottom:100%;
+//     width: 100%;
+//     height: 100%;
+//     text-align: center;
+//     font-size: large;
+//   }
+
+  // .title-card{
+
+  //   background: $card-bg-color;
+  //   border-radius: 2rem;
+  //   margin: 3rem 0;
+  //   padding: 1rem 2rem;
+  //   max-width: 60em;
+  //   top: 40%;
+  //   margin:auto
+  // }
+
+  // .content-card {
+
+  //   background: $card-bg-color;
+  //   border-radius: 2rem;
+  //   margin: 3rem 0;
+  //   padding: 1rem 2rem;
+  //   max-width: 60em;
+  //   margin:auto
+  // }
+
+  // .centered-icon
+  // {
+  //   position: relative;
+  //   border-radius: 2rem;
+  //   margin: 3rem 0;
+  //   padding: 1rem 2rem;
+  //   max-width: 60em;
+  //   margin:auto
+  // }
+
+  // .suggest-below-fold {
+  //   display: absolute;
+  //   width: 100%;
+  // }
+
+  // .suggest-below-fold i{
+  //   scale: 10 4;
+  //   color: $emphasis-text-color;
+  //   text-align:center;
+  // }
+
+  // em {
+  //   color:$emphasis-text-color
+  // }
 
   p, h1, h2, h3 {
     text-color: white;
     color: white;
   }
+
+  footer {
+
+    background-color: #333333;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}

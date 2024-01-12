@@ -4,17 +4,14 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet" />
   </head>
   <body>
-    <section>
-      {{ content }}
-      {% for post in site.posts %}
-      <h1><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h1>
-      {% endfor %}
-    </section>
-    <footer>
-      2023 &copy; Taylor Ellington
-    </footer>
+      <div class="content">{{ content }}</div>
   </body>
+  <footer>
+    <p class="copyright">{{ site.time | date: '%Y' }} &copy; Taylor Ellington</p>
+
+  </footer>
 </html>

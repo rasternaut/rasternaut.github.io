@@ -5,4 +5,5 @@
 layout: home
 ---
 
-# _Rasternaut_ is coming soon
+# _Rasternaut_
+Exploring graphics and game engine programming
