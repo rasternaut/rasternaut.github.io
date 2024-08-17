@@ -1,0 +1,32 @@
+solar-spheres-and-supertoroid
+    no AA    262144        132ms
+    old SS   1085764       507ms
+    new AS
+| AA Method              | Primary Rays | Total Render Time |
+|------------------------|-------------:|------------------:|
+| None                   |       262144 |             132ms |
+| Naive Supersampiling   |      1085764 |             507ms |
+| Adaptive Supersampling |              |                   |
+
+
+Dragon
+    no AA      262144     169ms
+    old SS     1085764    670ms
+    new AS
+
+| AA Method              | Primary Rays | Total Render Time |
+|------------------------|-------------:|------------------:|
+| None                   |       262144 |             169ms |
+| Naive Supersampiling   |      1085764 |             670ms |
+| Adaptive Supersampling |              |                   |
+
+Models and Spheres
+    no AA      262144  95ms
+    old SS     1085764 399ms
+    new AS
+
+| AA Method              | Primary Rays | Total Render Time |
+|------------------------|-------------:|------------------:|
+| None                   |       262144 |             95ms  |
+| Naive Supersampiling   |      1085764 |             399ms |
+| Adaptive Supersampling |              |                   |
