@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/cpp.min.js"></script>
+
+<script>hljs.highlightAll();</script>
+
+<article class="post">
+
+	{% if page.external-url %}
+		<h1>
+			<a href="{{ page.external-url }}">{{ page.title }}</a>
+			<a class="anchor" href="{{site.baseurl}}{{ page.url }}"><i class="icon-anchor"></i></a>
+		<hr style="border-color:#2aa198">
+		</h1>
+	{% else %}
+		<h1><a href="{{site.baseurl}}{{ page.url }}">{{ page.title }}</a></h1>
+		<hr style="border-color:#2aa198">
+	{% endif %}
+
+	<div class="post-content">{{ content }}</div>
+
+	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
 
 
-{{ content }}
+</article>
