@@ -2,7 +2,7 @@
 layout: post
 title:  "Adaptive Supersampiling and Anti-Aliasing"
 date:   2020-05-17 00:00:00 -0800
-categories: screen anti-aliasing
+tags: [screen, anti-aliasing, cs636-raytracer, raytracing]
 visible: 1
 ---
 The goal of this assignment was twofold. Firstly, we wanted to removed aliasing artifacts or "jaggies" from our ray traced images, much like assignment 2's work. However the second goal was that we wanted to avoid having to cast the x4 number of rays used by the naive super sampling we implemented previously.

@@ -1,0 +1,18 @@
+---
+layout: non-post-page
+title: Posts
+permalink: Posts/
+---
+
+All posts on this site, arranged newest to oldest.
+
+<ul>
+{% for post in site.posts  %}
+    <li class="post-list-item">
+    <span class="home-date">
+        {{ post.date | date: site.theme_config.date_format }}»
+    </span>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
+</ul>

@@ -2,7 +2,7 @@
 layout: post
 title:  "Fixing Reflections"
 date:   2020-06-05 00:00:00 -0800
-categories: refraction
+tags: [refraction, cs636-raytracer]
 visible: 1
 ---
 

@@ -1,0 +1,41 @@
+catagories:
+
+  -   title: code
+      tag: code
+      display_title: Code
+
+  -   title: math
+      tag: math
+      display_title: Math
+
+  -   title: graphics_api
+      tag: "graphics_api"
+      display_title: "Graphics API"
+
+  -   title: print_materials
+      tag: "print_materials"
+      display_title: "Books"
+
+resources:
+  - title: Freya Holmer's Math for game Dev's series
+    url: https://www.youtube.com/watch?v=MOYiVLEnhrw
+    category: math
+
+  - title: Vulkan Guide
+    url: https://vkguide.dev/
+    category: graphics_api
+
+  - title : List of easing functions
+    url: https://easings.net/
+    category: code
+
+
+
+# resources:
+#   - title: test
+#         url: google.com
+  #   category: video
+
+  #  - title: blerf
+  #    url: nah
+  #    category: rendering

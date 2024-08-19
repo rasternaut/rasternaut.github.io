@@ -2,7 +2,7 @@
 layout: post
 title:  "Shadows"
 date:   2020-05-24 00:00:00 -0800
-categories: lighting
+tags: [lighting,  cs636-raytracer, raytracing]
 visible: 1
 ---
 

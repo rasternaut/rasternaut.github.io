@@ -1,0 +1,37 @@
+navbar_entries:
+  - title: about
+    url: about
+
+  - title: posts
+    url: posts
+
+  - title: resources
+    url: resources
+
+
+
+project_entries:
+  - title: CPU Raytracer
+    url: projects/raytracer
+    desc: A offline raytracer written for a graduate level course in rendering techniques
+
+  - title: Paracosm
+    url: projects/paracosm
+    desc: Tools for playing table top games
+    highlight: WIP
+
+  - title: Graphics Performance Analyzers
+    url: projects/intel_gpa
+    desc: The product I work on professionally
+    highlight: External link
+
+
+footer_entries:
+
+  - title: feed
+    url: feed.xml
+
+misc_entries:
+
+
+

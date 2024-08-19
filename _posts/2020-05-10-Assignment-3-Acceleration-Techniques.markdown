@@ -2,7 +2,7 @@
 layout: post
 title:  "Acceleration Techniques"
 date:   2020-05-10 00:00:00 -0800
-categories: optimization
+tags: [ray-tracing, cs636-raytracer, optimization]
 visible: 1
 ---
 ## Building the Bounding Volume Hierarchy

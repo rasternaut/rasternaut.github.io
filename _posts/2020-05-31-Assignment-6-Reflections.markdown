@@ -2,7 +2,7 @@
 layout: post
 title:  "Reflection"
 date:   2020-05-31 00:00:00 -0800
-categories: reflection
+tags: [reflection, cs636-raytracer, raytracing]
 visible: 1
 ---
 
